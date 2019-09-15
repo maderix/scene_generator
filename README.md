@@ -32,4 +32,5 @@ Since this is a complex problem as the network is not able to model all the deta
 
 <h3>Future work</h3>
 1. Generating higher resolutions frames with progressive GANs
+<br>
 2. Use of better optimization (loss) functions 
