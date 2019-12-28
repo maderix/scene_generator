@@ -44,7 +44,7 @@ def show_plot(examples, n):
 # load model
 model = load_model('saved/generator_120_big.h5')
 # generate images
-latent_points = generate_latent_points(192,192)
+latent_points = generate_latent_points(192,16)
 # generate images
 X = model.predict(latent_points)
 for i in range(X.shape[0]):
